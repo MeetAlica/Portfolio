@@ -10,7 +10,7 @@ const Hero = () => {
 
       <div className="col-span-2 px-5 my-auto">
         <h1 className="text-white text-4x1 sm:text-5x1 lg:text-8x1 font-extrabold">
-          <span className="primary-color">I`&apos`m a</span> <br />
+          <span className="primary-color">I am a</span> <br />
           <TypeAnimation
             sequence={[
               "Full-Stack Dev",
