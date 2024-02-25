@@ -17,14 +17,13 @@ const About = () => {
             </p>
           </div>
         </div>
+        <img
+          className="mx-auto rounded-3x1 py-8 md:py-0"
+          src={aboutImg}
+          width={300}
+          height={300}
+        />
       </div>
-
-      <img
-        className="mx-auto rounded-3x1 py-8 md:py-0"
-        src={aboutImg}
-        width={300}
-        height={300}
-      />
     </div>
   );
 };
