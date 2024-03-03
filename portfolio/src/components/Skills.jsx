@@ -1,8 +1,12 @@
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
-import tailwind from "../assets/tailwind.png";
 import react from "../assets/react.png";
+import nodejs from "../assets/nodejs.png";
+import tailwind from "../assets/tailwind.png";
+import sql from "../assets/sql.png";
+import git from "../assets/git.png";
+import agile from "../assets/agile.png";
 
 const Skills = () => {
   return (
@@ -27,13 +31,33 @@ const Skills = () => {
       </div>
 
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+        <img src={react} alt="" width={100} height={100} />
+        <p className="mt-2">React</p>
+      </div>
+
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+        <img src={nodejs} alt="" width={100} height={100} />
+        <p className="mt-2">Node.js</p>
+      </div>
+
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
         <img src={tailwind} alt="" width={100} height={100} />
         <p className="mt-2">Tailwind</p>
       </div>
 
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
-        <img src={react} alt="" width={100} height={100} />
-        <p className="mt-2">React</p>
+        <img src={sql} alt="" width={100} height={100} />
+        <p className="mt-2">SQL</p>
+      </div>
+
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+        <img src={git} alt="" width={100} height={100} />
+        <p className="mt-2">Git</p>
+      </div>
+
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+        <img src={agile} alt="" width={100} height={100} />
+        <p className="mt-2">Agile Scrum</p>
       </div>
     </div>
   );
