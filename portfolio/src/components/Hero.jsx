@@ -33,7 +33,7 @@ const Hero = () => {
 
         <div className="my-8">
           <a
-            href="../assets/Aladar Feher CV.pdf"
+            href="../assets/Aladar_Feher_CV.pdf"
             download="Aladar_Feher_CV.pdf"
             className="px-6 py-3 w-full rounded-x1 mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white"
           >
