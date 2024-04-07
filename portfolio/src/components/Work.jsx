@@ -1,5 +1,5 @@
 import proj1 from "../assets/RecipeKingLogo.png";
-import proj2 from "../assets/heart.png";
+import proj2 from "../assets/monitor.png";
 import proj3 from "../assets/profilepic.png";
 
 const Work = () => {
@@ -34,13 +34,11 @@ const Work = () => {
           <img src={proj2} alt="" className="max-h-full" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2x1 font-bold text-white tracking-wider">
-              A simple hangman game.
+              A simple gallows game where you have to guess the password. A
+              weather API is also built in.
             </span>
             <div className="pt-8 text-center">
-              <a
-                href="https://meetalica.github.io/Hangman-game/"
-                target="_blank"
-              >
+              <a href="https://hangman-game-8u1.pages.dev/" target="_blank">
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Try it!
                 </button>
