@@ -1,6 +1,6 @@
 import proj1 from "../assets/profilepic.png";
 import proj2 from "../assets/RecipeKingLogo.png";
-import proj3 from "../assets/todo-app.jpg";
+import proj3 from "../assets/todo-app.png";
 import proj4 from "../assets/monitor.png";
 
 const Work = () => {
