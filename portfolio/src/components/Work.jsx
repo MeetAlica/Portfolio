@@ -2,6 +2,7 @@ import proj1 from "../assets/profilepic.png";
 import proj2 from "../assets/RecipeKingLogo.png";
 import proj3 from "../assets/todo-app.png";
 import proj4 from "../assets/monitor.png";
+import proj5 from "../assets/fighting-game.png";
 
 const Work = () => {
   return (
@@ -74,6 +75,22 @@ const Work = () => {
             </span>
             <div className="pt-8 text-center">
               <a href="https://hangman-game-8u1.pages.dev/" target="_blank">
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  Try it!
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[200px] bg-cover relative">
+          <img src={proj5} alt="" className="max-h-full" />
+          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
+            <span className="text-2x1 font-bold text-white tracking-wider">
+              With this project, I practiced making games with JavaScript.
+            </span>
+            <div className="pt-8 text-center">
+              <a href="https://2d-fighting-game-12p.pages.dev/" target="_blank">
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Try it!
                 </button>
