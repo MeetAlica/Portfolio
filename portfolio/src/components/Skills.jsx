@@ -4,8 +4,9 @@ import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import nodejs from "../assets/nodejs.png";
 import tailwind from "../assets/tailwind.png";
-import sql from "../assets/sql.png";
+import postgresql from "../assets/postgresql.png";
 import git from "../assets/git.png";
+import jira from "../assets/jira.png";
 import agile from "../assets/agile.png";
 
 const Skills = () => {
@@ -46,13 +47,18 @@ const Skills = () => {
       </div>
 
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
-        <img src={sql} alt="" width={100} height={100} />
-        <p className="mt-2">SQL</p>
+        <img src={postgresql} alt="" width={100} height={100} />
+        <p className="mt-2">PostgreSQL</p>
       </div>
 
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
         <img src={git} alt="" width={100} height={100} />
         <p className="mt-2">Git</p>
+      </div>
+
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+        <img src={jira} alt="" width={100} height={100} />
+        <p className="mt-2">Jira</p>
       </div>
 
       <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
