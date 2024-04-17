@@ -1,4 +1,4 @@
-import heroimage from "../assets/profilepic.png";
+import heroimage from "../assets/profilepic2.png";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
@@ -43,7 +43,7 @@ const Hero = () => {
             href="#contact"
             className="px-6 py-3 w-full rounded-x1 border border-gray-400 hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none"
           >
-            Contract
+            Contact
           </a>
         </div>
       </div>
