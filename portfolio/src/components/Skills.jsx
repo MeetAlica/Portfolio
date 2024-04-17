@@ -61,7 +61,7 @@ const Skills = () => {
         <p className="mt-2">Jira</p>
       </div>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[120px]">
         <img src={agile} alt="" width={100} height={100} />
         <p className="mt-2">Agile Scrum</p>
       </div>
