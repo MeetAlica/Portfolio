@@ -24,7 +24,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="mx-auto rounded-3xl py-8 md:py-0 w-80 h-80 overflow-hidden">
+        <div className="mx-auto rounded-3xl py-8 lg:py-0 w-80 h-80 overflow-hidden">
           <img className="w-full h-full object-cover" src={aboutImg2} />
         </div>
       </div>
