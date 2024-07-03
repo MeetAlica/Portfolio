@@ -12,7 +12,7 @@ import agile from "../assets/agile.png";
 const Skills = () => {
   return (
     <div className="border border-gray-600 bg-black text-gray-400 max-w-[1200px] mx-auto p-2 grid grid-cols-3 place-items-center md:grid-cols-6">
-      <h2 className="text-gray-700 text-x1 md:text-4x1 font-bold m-4">
+      <h2 className="text-gray-700 text-xl md:text-4xl font-bold m-4">
         My <br /> Tech <br /> Stack
       </h2>
 
