@@ -1,37 +1,37 @@
 import Slider from "./Slider.jsx";
 
 // Project 1: RecipeKing
-import Image1 from "../assets/projects/RecipeKing/1.png";
-import Image2 from "../assets/projects/RecipeKing/2.png";
-import Image3 from "../assets/projects/RecipeKing/3.png";
-import Image4 from "../assets/projects/RecipeKing/4.png";
-import Image5 from "../assets/projects/RecipeKing/5.png";
-import Image6 from "../assets/projects/RecipeKing/6.png";
-import Image7 from "../assets/projects/RecipeKing/7.png";
-import Image8 from "../assets/projects/RecipeKing/8.png";
-import Image9 from "../assets/projects/RecipeKing/9.png";
-import Image10 from "../assets/projects/RecipeKing/10.png";
-import Image11 from "../assets/projects/RecipeKing/11.png";
+import Image1 from "../assets/projects/RecipeKing/1.webp";
+import Image2 from "../assets/projects/RecipeKing/2.webp";
+import Image3 from "../assets/projects/RecipeKing/3.webp";
+import Image4 from "../assets/projects/RecipeKing/4.webp";
+import Image5 from "../assets/projects/RecipeKing/5.webp";
+import Image6 from "../assets/projects/RecipeKing/6.webp";
+import Image7 from "../assets/projects/RecipeKing/7.webp";
+import Image8 from "../assets/projects/RecipeKing/8.webp";
+import Image9 from "../assets/projects/RecipeKing/9.webp";
+import Image10 from "../assets/projects/RecipeKing/10.webp";
+import Image11 from "../assets/projects/RecipeKing/11.webp";
 
 // Project 2: TODO app
-import Image12 from "../assets/projects/ToDo/1.jpg";
-import Image13 from "../assets/projects/ToDo/2.jpg";
-import Image14 from "../assets/projects/ToDo/3.jpg";
-import Image15 from "../assets/projects/ToDo/4.jpg";
-import Image16 from "../assets/projects/ToDo/5.jpg";
-import Image17 from "../assets/projects/ToDo/6.jpg";
+import Image12 from "../assets/projects/ToDo/1.webp";
+import Image13 from "../assets/projects/ToDo/2.webp";
+import Image14 from "../assets/projects/ToDo/3.webp";
+import Image15 from "../assets/projects/ToDo/4.webp";
+import Image16 from "../assets/projects/ToDo/5.webp";
+import Image17 from "../assets/projects/ToDo/6.webp";
 
 // Project 3: Hackman
-import Image18 from "../assets/projects/Hackman/1.png";
-import Image19 from "../assets/projects/Hackman/2.png";
-import Image20 from "../assets/projects/Hackman/3.png";
-import Image21 from "../assets/projects/Hackman/4.png";
-import Image22 from "../assets/projects/Hackman/5.png";
+import Image18 from "../assets/projects/Hackman/1.webp";
+import Image19 from "../assets/projects/Hackman/2.webp";
+import Image20 from "../assets/projects/Hackman/3.webp";
+import Image21 from "../assets/projects/Hackman/4.webp";
+import Image22 from "../assets/projects/Hackman/5.webp";
 
 // Project 4: 2D Fighter
-import Image23 from "../assets/projects/Fighting_game/1.png";
-import Image24 from "../assets/projects/Fighting_game/2.png";
-import Image25 from "../assets/projects/Fighting_game/3.png";
+import Image23 from "../assets/projects/Fighting_game/1.webp";
+import Image24 from "../assets/projects/Fighting_game/2.webp";
+import Image25 from "../assets/projects/Fighting_game/3.webp";
 
 const Work = () => {
   const proj1 = [
