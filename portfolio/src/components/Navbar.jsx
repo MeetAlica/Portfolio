@@ -14,7 +14,9 @@ const Navbar = () => {
 
   return (
     <div className="border border-gray-600 bg-black text-gray-400 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center">
-      <h1 className="text-3x1 font-bold primary-color ml-4">Aladár Fehér</h1>
+      <h1 className="text-3x1 font-bold primary-color ml-4">
+        Welcome to my portfolio page!
+      </h1>
       <ul className="hidden md:flex">
         <li className="p-5">
           <a href="#about">About</a>
@@ -38,7 +40,7 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <h1 className="text-3x1 primary-color md-4">Aladár Fehér</h1>
+        <h1 className="text-3x1 primary-color md-4 p-5">Menu</h1>
         <ul className="p-8 text-2x1">
           <li className="p-2">
             <a href="#about" onClick={closeNav}>

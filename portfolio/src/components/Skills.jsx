@@ -11,57 +11,57 @@ import agile from "../assets/agile.png";
 
 const Skills = () => {
   return (
-    <div className="border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-6 place-items-center md:flex md:justify-between md:items-center">
+    <div className="border border-gray-600 bg-black text-gray-400 max-w-[1200px] mx-auto p-2 grid grid-cols-3 place-items-center md:grid-cols-6">
       <h2 className="text-gray-700 text-x1 md:text-4x1 font-bold m-4">
         My <br /> Tech <br /> Stack
       </h2>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={html} alt="" width={100} height={100} />
         <p className="mt-2">HTML</p>
       </div>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={css} alt="" width={100} height={100} />
         <p className="mt-2">CSS</p>
       </div>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={javascript} alt="" width={100} height={100} />
         <p className="mt-2">JavaScript</p>
       </div>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={react} alt="" width={100} height={100} />
         <p className="mt-2">React</p>
       </div>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={nodejs} alt="" width={100} height={100} />
         <p className="mt-2">Node.js</p>
       </div>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={tailwind} alt="" width={100} height={100} />
         <p className="mt-2">Tailwind</p>
       </div>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={postgresql} alt="" width={100} height={100} />
         <p className="mt-2">PostgreSQL</p>
       </div>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={git} alt="" width={100} height={100} />
         <p className="mt-2">Git</p>
       </div>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={jira} alt="" width={100} height={100} />
         <p className="mt-2">Jira</p>
       </div>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[120px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={agile} alt="" width={100} height={100} />
         <p className="mt-2">Agile Scrum</p>
       </div>
