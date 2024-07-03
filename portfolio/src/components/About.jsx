@@ -4,8 +4,8 @@ import aboutImg2 from "../assets/about2.jpg";
 const About = () => {
   return (
     <div className="text-white max-w-[1200px] mx-auto my-12" id="about">
-      <div className="md:grid md:grid-cols-3 sm:py-16 items-center">
-        <div className="mx-auto rounded-3xl py-8 md:py-0 w-80 h-80 overflow-hidden">
+      <div className="lg:grid lg:grid-cols-3 sm:py-16 items-center">
+        <div className="mx-auto rounded-3xl py-8 lg:py-0 w-80 h-80 overflow-hidden">
           <img className="w-full h-full object-cover" src={aboutImg} />
         </div>
         <div className="mt-4 md:mt-0 text-left flex">
