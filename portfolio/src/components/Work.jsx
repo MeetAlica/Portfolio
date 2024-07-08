@@ -37,6 +37,10 @@ import Image25 from "../assets/projects/Fighting_game/3.webp";
 import Image26 from "../assets/projects/Nail_art_portfolio/1.webp";
 import Image27 from "../assets/projects/Nail_art_portfolio/2.webp";
 import Image28 from "../assets/projects/Nail_art_portfolio/3.webp";
+import Image29 from "../assets/projects/Nail_art_portfolio/Phone-1.webp";
+import Image30 from "../assets/projects/Nail_art_portfolio/Phone-2.webp";
+import Image31 from "../assets/projects/Nail_art_portfolio/Phone-3.webp";
+import Image32 from "../assets/projects/Nail_art_portfolio/Phone-4.webp";
 
 const Work = () => {
   const proj1 = [
@@ -72,7 +76,15 @@ const Work = () => {
 
   const proj4 = [{ url: Image23 }, { url: Image24 }, { url: Image25 }];
 
-  const proj5 = [{ url: Image26 }, { url: Image27 }, { url: Image28 }];
+  const proj5 = [
+    { url: Image26 },
+    { url: Image27 },
+    { url: Image28 },
+    { url: Image29 },
+    { url: Image30 },
+    { url: Image31 },
+    { url: Image32 },
+  ];
 
   return (
     <div className="max-w-[1200px] mx-auto p-5" id="work">
