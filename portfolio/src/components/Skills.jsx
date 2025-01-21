@@ -65,6 +65,10 @@ const Skills = () => {
         <img src={agile} alt="" width={100} height={100} />
         <p className="mt-2">Agile Scrum</p>
       </div>
+
+      <h2 className="text-gray-700 text-l md:text-2xl font-bold m-4">
+        Still learning, <br /> more <br /> coming...
+      </h2>
     </div>
   );
 };

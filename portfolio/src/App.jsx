@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Work />
       <Contact />
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }

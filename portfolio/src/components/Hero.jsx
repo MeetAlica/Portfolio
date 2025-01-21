@@ -1,4 +1,5 @@
-import heroimage from "../assets/heropic.png";
+// import heroimage from "../assets/heropic.png";
+import heroimage2 from "../assets/heropic2.png";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
@@ -7,7 +8,7 @@ const Hero = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[auto] mx-auto py-8 bg-black">
       <div className="col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]">
-        <img src={heroimage} alt="hero image" />
+        <img src={heroimage2} alt="hero image" />
       </div>
 
       <div className="col-span-2 px-5 my-auto">
@@ -17,7 +18,7 @@ const Hero = () => {
             sequence={[
               "Download my CV!",
               3000,
-              "Check my work!",
+              "Check out my works!",
               3000,
               "Leave me a message!",
               3000,
@@ -29,8 +30,7 @@ const Hero = () => {
         </h1>
 
         <p className="text-white sm:text-lg my-6 lg:text-xl">
-          Hi there! This page is for showing you my skills and recent work. I
-          have 1 year experience in coding, but im very enthusiastic.
+          Hi there! This page is for showing you my skills and recent work.
         </p>
 
         <div className="my-8">

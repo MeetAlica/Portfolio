@@ -12,10 +12,9 @@ const About = () => {
           <div className="my-auto mx-6">
             <h2 className="text-4xl font-bold mb-4 primary-color">About me</h2>
             <p className="text-base lg:text-lg">
-              Hi, I&#39;m Ali! I am new to programming, but very enthusiastic
-              and motivated. I have a huge desire to create. In addition to
-              programming, I have a hobby that also requires a lot of
-              creativity, which is music. <br /> <br /> In April 2023, I
+              Hi, I&#39;m Ali! I have a huge desire to create. In addition to
+              programming, I have several hobbies that also require a lot of
+              creativity, which are music, 3D modeling, 3D printing. <br /> <br /> In April 2023, I
               attended a fullstack developer course. During the course, we
               created several smaller projects, such as: todo app, weather
               report app, hangman game, etc. At the end of the course, a few of
