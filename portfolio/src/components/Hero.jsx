@@ -1,4 +1,3 @@
-// import heroimage from "../assets/heropic.png";
 import heroimage2 from "../assets/heropic2.png";
 import { TypeAnimation } from "react-type-animation";
 
@@ -35,8 +34,8 @@ const Hero = () => {
 
         <div className="my-8">
           <a
-            href="/Aladar_Feher_CV.pdf"
-            download="Aladar_Feher_CV.pdf"
+            href="/AladarFeherCV.pdf"
+            download="AladarFeherCV.pdf"
             className="px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white"
           >
             Download CV
